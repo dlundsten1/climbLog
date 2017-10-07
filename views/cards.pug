@@ -1,0 +1,12 @@
+
+
+extends layout
+
+block content
+    .page-header
+        h3 All Cards
+
+    ul
+        for card in cards
+            li= card.qty
+            li= card.item
